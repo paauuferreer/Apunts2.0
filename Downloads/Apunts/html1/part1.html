@@ -5,34 +5,284 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Aquest lloc web conté els Apunts de Llenguatge de marques.">
-
+<link rel="stylesheet" href="style1.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
 <title>HTML1</title>
 </head>
 
 <body>
 <header>
 		<center> <!--TO DO: Llevar al afegir css-->
-			<h1>Html Básic</h1> 
+			<h1>Html Bàsic</h1> 
 			<a href="../i/index.html">Página Principal</a>
 		</center>
 		<hr>
 
 	</header>
-				<section>
-	<h3>CONTINGUTS:</h3>
-			<ol>
-				<li>Introducció a HTML</li>
-				<li>Estructura Bàsica d’un document HTML</li>
-				<li>Etiquetes bàsiques</li>
-				<li>Elements HTML i Anidament</li>
-				<li>Atributs HTML</li>
-				
-				<li>Text formatat</li>
-				<li>Comentaris en HTML</li>
-				<li>Inserció d’Imatges</li>
-				<li>Enllaços</li>
-				<li>Llistes</li>
-				<li>Taules</li>
-			 </ol>
-</section>
- </body>
+
+    <h2>CONTINGUTS</h2>
+    <ol>
+        <li>Introducció a HTML</li>
+        <li>Estructura Bàsica d'un document HTML</li>
+        <li>Etiquetes bàsiques</li>
+        <li>Elements HTML i Anidament</li>
+        <li>Atributs HTML</li>
+        <li>Text formatat</li>
+        <li>Comentaris en HTML</li>
+        <li>Inserció d'Imatges</li>
+        <li>Enllaços</li>
+        <li>Llistes</li>
+        <li>Taules</li>
+    </ol>
+
+    <h2>1. Introducció a HTML</h2>
+    <h3>Què és HTML?</h3>
+    <ol>
+        <li>HTML (HyperText Markup Language) és el llenguatge de marques per crear pàgines web.</li>
+        <li>Defineix l'estructura de la pàgina amb etiquetes que el navegador interpreta per mostrar contingut.</li>
+    </ol>
+    <h3>Breu Història</h3>
+    <ol>
+        <li>Creat per Tim Berners-Lee el 1991.</li>
+        <li>HTML 2.0 (1995): Primer estàndard oficial.</li>
+        <li>HTML5 (2014): Última versió amb noves funcionalitats com suport per a vídeo, àudio i gràfics.</li>
+    </ol>
+
+    <h2>2. Estructura Bàsica d'un document HTML</h2>
+    <h3>Estructura General</h3>
+    <ol>
+        <li>Un document HTML es basa en una estructura jeràrquica de etiquetes que defineixen les diferents parts d'una pàgina.</li>
+        <li>Cada pàgina HTML segueix una estructura similar, començant pel &lt;!DOCTYPE&gt;, seguit de les etiquetes &lt;html&gt;, &lt;head&gt;, &lt;body&gt;.</li>
+    </ol>
+
+    <h2>3. Etiquetes bàsiques</h2>
+
+    <h3>&lt;title&gt;</h3>
+    <p>Defineix el títol que apareix a la pestanya del navegador o als resultats dels cercadors.</p>
+
+    <h3>&lt;h1&gt; a &lt;h6&gt;</h3>
+    <p>Utilitzats per definir títols i subtítols a la pàgina web.</p>
+
+    <h3>&lt;p&gt;</h3>
+    <p>S'utilitza per definir blocs de text o paràgrafs.</p>
+
+    <h3>&lt;br&gt;</h3>
+    <p>Força el text a començar en una nova línia.</p>
+
+    <h3>&amp;nbsp;</h3>
+    <p>Inserta un espai en blanc que no es trenca entre línies.</p>
+
+    <h2>4. Elements HTML i anidament</h2>
+    <h3>Diferència entre Etiquetes i Elements</h3>
+
+    <h4>Etiqueta (Tag):</h4>
+    <ul>
+        <li>És la part que defineix l'inici i el final d'un component en HTML.</li>
+        <li>Es delimita amb els símbols &lt; &gt;.</li>
+        <li>Exemples: &lt;p&gt;, &lt;/p&gt;, &lt;h1&gt;, &lt;/h1&gt;.</li>
+    </ul>
+
+    <h4>Element:</h4>
+    <ul>
+        <li>Un element inclou l'etiqueta d'obertura, el contingut (si n'hi ha), i l'etiqueta de tancament.</li>
+        <li>Els elements poden ser buits o contenir altres elements dins.</li>
+        <li>Exemple: &lt;p&gt;Aquest és un paràgraf.&lt;/p&gt;</li>
+    </ul>
+
+    <h3>Elements Anidats</h3>
+    <ul>
+        <li>Anidament es refereix a col·locar un element HTML dins d'un altre element.</li>
+        <li>És important seguir correctament l'ordre de les etiquetes: la primera que s'obre és l'última que es tanca.</li>
+    </ul>
+
+    <h2>5. Atributs HTML</h2>
+    <p>Els atributs en HTML són elements que afegeixen informació extra a les etiquetes HTML per modificar-ne el comportament o l'aparença. Aquests atributs sempre es col·loquen dins de l'etiqueta d'obertura i segueixen el format nom="valor".</p>
+
+    <h2>6. Text formatat</h2>
+
+    <h3>&lt;b&gt; i &lt;strong&gt;: Negreta</h3>
+    <ul>
+        <li>&lt;b&gt; aplica negreta sense indicar cap importància semàntica.</li>
+        <li>&lt;strong&gt; aplica negreta i indica que el text és important.</li>
+    </ul>
+
+    <h3>&lt;i&gt; i &lt;em&gt;: Cursiva</h3>
+    <ul>
+        <li>&lt;i&gt; aplica cursiva sense implicar èmfasi.</li>
+        <li>&lt;em&gt; aplica cursiva amb èmfasi, indicant que el text té importància.</li>
+    </ul>
+
+    <h3>&lt;u&gt;: Subratllat</h3>
+    <p>S'utilitza per subratllar text.</p>
+
+    <h3>&lt;strike&gt; o &lt;s&gt;: Text ratllat</h3>
+    <p>Aplica un ratllat al text, indicant que està esborrat o ja no és rellevant.</p>
+
+    <h3>&lt;sup&gt;: Superíndex</h3>
+    <p>S'utilitza per elevar el text, com en exponents matemàtics.</p>
+
+    <h3>&lt;sub&gt;: Subíndex</h3>
+    <p>S'utilitza per posar text en la posició de subíndex, sovint utilitzat en fórmules químiques.</p>
+
+    <h2>7. Comentaris en HTML</h2>
+    <p>Els comentaris en HTML són línies de text que s'afegeixen al codi per deixar notes o explicacions, però que no són visibles per als usuaris finals en la pàgina web.</p>
+    <p>S'utilitzen per ajudar els desenvolupadors a documentar el codi, descriure seccions específiques o deixar indicacions per a futurs desenvolupadors.</p>
+    <p>Els comentaris no afecten el rendiment ni la visualització de la pàgina en el navegador.</p>
+    
+    <h3>Bones Pràctiques amb Comentaris:</h3>
+    <ul>
+        <li>Mantenir-los clars i concisos: Els comentaris han de ser breus i proporcionar informació útil.</li>
+        <li>Evitar comentaris excessius: Només afegeix comentaris on sigui necessari per evitar sobrecarregar el codi.</li>
+        <li>No deixar comentaris innecessaris en producció: Els comentaris en entorns de desenvolupament poden ser útils, però en codi de producció és millor deixar només els essencials.</li>
+    </ul>
+
+
+    <h2>8. Inserció d'Imatges en HTML</h2>
+    <p>L'etiqueta &lt;img&gt; s'utilitza per inserir imatges en una pàgina web.</p>
+    <p>No té etiqueta de tancament, ja que és un element auto-tancat.</p>
+    <p>És essencial proporcionar informació sobre la imatge perquè es mostri correctament i per millorar l'accessibilitat.</p>
+
+    <h3>Atributs d’Imatges:</h3>
+
+    <h4>src (source):</h4>
+    <ul>
+        <li>Defineix la font o el camí de la imatge.</li>
+        <li>Pot ser un camí relatiu o una URL completa.</li>
+    </ul>
+
+    <h4>alt (alternate text):</h4>
+    <ul>
+        <li>Proporciona un text alternatiu que es mostra si la imatge no es carrega o és llegida per lectors de pantalla.</li>
+        <li>És fonamental per a l’accessibilitat i SEO.</li>
+    </ul>
+
+    <h4>width i height:</h4>
+    <ul>
+        <li>Especifica l'amplada (width) i l'alçada (height) de la imatge en píxels o percentatges.</li>
+        <li>És important per controlar la mida de la imatge a la pàgina.</li>
+    </ul>
+
+    <h3>Bones Pràctiques:</h3>
+    <ul>
+        <li>Sempre utilitza l’atribut alt per garantir una bona accessibilitat i SEO.</li>
+        <li>Evita inserir imatges molt grans sense reduir la seva mida, ja que això pot afectar el rendiment de la pàgina.</li>
+    </ul>
+
+
+    <h2>9. Enllaços en HTML</h2>
+    <p>L'etiqueta &lt;a&gt; s'utilitza per crear enllaços (links) a altres pàgines web, documents, seccions dins de la mateixa pàgina o qualsevol altre recurs.</p>
+    <p>L’element essencial per als enllaços és l’atribut **href** que defineix l’URL a la qual redirigeix l’usuari.</p>
+    <p>El text entre l’etiqueta d'obertura i la de tancament és el que els usuaris veuran i podran clicar per ser redirigits.</p>
+
+    <h3>Atributs d’Enllaços:</h3>
+
+    <h4>href (hypertext reference):</h4>
+    <ul>
+        <li>Defineix la URL de destinació de l'enllaç.</li>
+        <li>Pot ser un enllaç absolut (una URL completa) o relatiu (camí dins del mateix domini).</li>
+    </ul>
+
+    <h4>target:</h4>
+    <ul>
+        <li>Defineix on s’obrirà l’enllaç: a la mateixa pestanya, en una nova pestanya o en un nou marc.</li>
+        <li>Els valors més habituals són:
+            <ul>
+                <li>_blank: Obre l'enllaç en una nova pestanya.</li>
+                <li>_self: Obre l'enllaç a la mateixa pestanya (valor predeterminat).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Bones Pràctiques:</h3>
+    <ul>
+        <li>Utilitza enllaços descriptius en lloc de genèrics com "Clica aquí".</li>
+        <li>Això millora l’accessibilitat i el SEO.</li>
+        <li>Correcte: "Visita la pàgina"</li>
+    </ul>
+
+
+    <h2>10. Llistes en HTML</h2>
+
+    <h3>Llistes No Ordenades (&lt;ul&gt;):</h3>
+    <ul>
+        <li>S'utilitzen per a llistes d’elements sense un ordre específic.</li>
+        <li>Els elements es mostren amb vinyetes o altres símbols abans de cada ítem.</li>
+        <li>Cada element de la llista es defineix amb l’etiqueta &lt;li&gt; (list item).</li>
+    </ul>
+
+    <h3>Llistes Ordenades (&lt;ol&gt;):</h3>
+    <ul>
+        <li>S’utilitzen per a llistes en què l'ordre dels elements és rellevant.</li>
+        <li>Els elements es numeren automàticament (1, 2, 3, etc.).</li>
+        <li>Cada element de la llista també es defineix amb &lt;li&gt;.</li>
+    </ul>
+
+    <h2>Llistes en HTML</h2>
+
+    <h3>Atribut type (per a llistes ordenades &lt;ol&gt;):</h3>
+    <p>Es pot utilitzar per definir el tipus de numeració de la llista:</p>
+    <ul>
+        <li>1: Nombres (predeterminat).</li>
+        <li>A: Majúscules.</li>
+        <li>a: Minúscules.</li>
+        <li>I: Números romans en majúscules.</li>
+        <li>i: Números romans en minúscules.</li>
+    </ul>
+
+    <h3>Atribut start (per a llistes ordenades &lt;ol&gt;):</h3>
+    <p>Defineix el número o lletra per començar la numeració.</p>
+
+    <h3>Bones Pràctiques:</h3>
+    <ul>
+        <li>Utilitza llistes no ordenades (&lt;ul&gt;) quan l'ordre dels ítems no sigui important.</li>
+        <li>Utilitza llistes ordenades (&lt;ol&gt;) quan l'ordre sigui rellevant.</li>
+        <li>Personalitza les llistes segons les necessitats visuals o estilístiques utilitzant els atributs adequats.</li>
+    </ul>
+
+
+    <h2>11. Taules bàsiques amb HTML</h2>
+
+    <h3>Etiqueta &lt;table&gt;:</h3>
+    <p>L’etiqueta &lt;table&gt; defineix la taula i actua com el contenidor principal.</p>
+
+    <h3>Etiqueta &lt;tr&gt; (table row):</h3>
+    <p>Defineix una fila dins de la taula.</p>
+
+    <h3>Etiqueta &lt;td&gt; (table data):</h3>
+    <p>Crea una cel·la dins d’una fila de la taula (dades de la taula).</p>
+
+    <h2>Taules bàsiques amb HTML (Atributs)</h2>
+
+    <h3>Atributs de Taula:</h3>
+
+    <h4>border:</h4>
+    <p>Afegeix una vora a la taula i a les cel·les.</p>
+
+    <h4>cellpadding:</h4>
+    <p>Defineix l’espai entre el contingut de la cel·la i la vora de la cel·la.</p>
+
+    <h4>cellspacing:</h4>
+    <p>Controla l'espai entre les cel·les de la taula.</p>
+
+    <h2>Taules amb HTML</h2>
+
+    <h3>Etiqueta &lt;thead&gt; (table head):</h3>
+    <p>Defineix l’encapçalament de la taula, agrupant les files d'encapçalament (habitualment les que contenen &lt;th&gt;).</p>
+
+    <h3>Etiqueta &lt;tbody&gt; (table body):</h3>
+    <p>Agrupa el cos de la taula, és a dir, les files de dades.</p>
+    <p>Se sol fer servir per separar les dades dels encapçalaments.</p>
+
+    <h3>Etiqueta &lt;th&gt; (table header):</h3>
+    <p>S’utilitza per crear una cel·la d'encapçalament en una taula.</p>
+    <p>El text dins de &lt;th&gt; apareix en negreta i centrat per defecte.</p>
+
+    <h2>Taules amb HTML (Bones Pràctiques)</h2>
+    <h3>Bones Pràctiques:</h3>
+    <ul>
+        <li>Utilitza &lt;thead&gt; i &lt;tbody&gt; per organitzar les taules, especialment en taules més grans, per tal de separar clarament l’encapçalament del cos de la taula.</li>
+        <li>Mantingues les taules simples per a dades tabulades i utilitza CSS per al disseny més avançat de les taules (colors, mida de la font, etc.).</li>
+    </ul>
+
+</body>
+</html>
