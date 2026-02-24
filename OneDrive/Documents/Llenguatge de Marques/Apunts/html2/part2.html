@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Aquest lloc web conté els Apunts de Llenguatge de marques.">
+    <link rel="stylesheet" href="style2.css">
+
+
+<title>HTML1</title>
+</head>
+
+<body>
+<header>
+		<center> <!--TO DO: Llevar al afegir css-->
+			<h1>Html Avançat</h1> 
+			<a href="../i/index.html">Página Principal</a>
+		</center>
+		<hr>
+
+	</header>
+
+    <h2>CONTINGUTS</h2>
+    <ol>
+        <li>HTML5 i la seva Evolució</li>
+        <li>Estructura Bàsica d'un document HTML</li>
+        <li>Formularis amb HTML</li>
+        <li>Validació de Formularis</li>
+        <li>Tipus d'Entrada Especials</li>
+        <li>Multimèdia amb HTML</li>
+        <li>Etiqueta</li>
+        <li>Metadades en HTML</li>
+    </ol>
+
+    <h2>1. HTML5 i la seva Evolució</h2>
+    <p>És una evolució important respecte a les versions anteriors d'HTML, introduint noves etiquetes i funcionalitats que permeten una millor gestió del contingut multimèdia, formularis avançats, i millores en la semàntica de la pàgina web.</p>
+
+    <h3>Etiquetes en HTML5</h3>
+    <ol>
+        <li>&lt;section&gt;: Ús per a agrupar contingut relacionat dins d'una pàgina.</li>
+        <li>&lt;article&gt;: Representa un bloc de contingut autònom, com un article d'un blog, una notícia o un post que pot existir independentment del lloc web.</li>
+        <li>&lt;aside&gt;: Defineix contingut relacionat amb el contingut principal però no essencial. Normalment s'utilitza per a barres laterals, anuncis, o informació complementària.</li>
+        <li>&lt;header&gt; i &lt;footer&gt;: Etiquetes per a definir les capçaleres i peus de pàgina.</li>
+        <li>&lt;nav&gt;: Específica per a les barres de navegació del lloc web.</li>
+        <li>&lt;figure&gt; i &lt;figcaption&gt;: Agrupa elements multimèdia (com imatges o vídeos) i les seves descripcions.</li>
+    </ol>
+
+    <h3>IMPORTANT - Bones Pràctiques per Utilitzar els Elements d'Estructura:</h3>
+    <ol>
+        <li>Utilitza elements semàntics per organitzar millor la pàgina. Això fa que sigui més comprensible per als navegadors, cercadors i lectors de pantalla.</li>
+        <li>Evita l'ús excessiu de divs ("divitis") i aprofita les etiquetes com &lt;section&gt;, &lt;article&gt;, i &lt;aside&gt; per fer que la pàgina sigui més semàntica.</li>
+        <li>Proporciona enllaços de navegació clars dins dels elements &lt;header&gt; i &lt;footer&gt; per millorar l'experiència d'usuari i l'accessibilitat.</li>
+        <li>No abusis de &lt;aside&gt;, ja que aquest element ha de contenir informació complementària i no essencial per al contingut principal.</li>
+    </ol>
+
+    <h2>3. Formularis amb HTML</h2>
+    <p>Els formularis són una de les eines més importants d'HTML perquè permeten als usuaris enviar dades a un servidor. Amb HTML5, els formularis han guanyat noves funcionalitats que milloren la seva usabilitat i validació. Un formulari es crea amb l'etiqueta &lt;form&gt;, que actua com el contenidor de tots els elements d'entrada (text, botons, seleccions, etc.). Cada camp del formulari s'envia com a dades a un servidor quan l'usuari l'envia.</p>
+
+    <h3>Etiqueta &lt;input&gt;</h3>
+    <p>L'etiqueta &lt;input&gt; és l'element més versàtil per crear camps d'entrada. El tipus de camp es defineix amb l'atribut type.</p>
+    <h3>Etiqueta &lt;label&gt;</h3>
+    <p>L'etiqueta &lt;label&gt; s'utilitza per a etiquetar camps de formulari i millorar l'accessibilitat.</p>
+    <h3>Etiqueta &lt;textarea&gt;</h3>
+    <p>Per a textos llargs, com comentaris o descripcions, s'utilitza &lt;textarea&gt;, que permet una àrea de text més gran.</p>
+    <h3>Etiqueta &lt;select&gt;</h3>
+    <p>&lt;select&gt; es fa servir per crear llistes desplegables de selecció. Cada opció dins de la llista es defineix amb &lt;option&gt;.</p>
+    <h3>Atribut multiple (per a &lt;select&gt;)</h3>
+    <p>Permet seleccionar múltiples opcions en una llista de selecció.</p>
+    <h3>Etiqueta &lt;button&gt;</h3>
+    <p>S'utilitza per crear botons d'enviament o d’altres accions dins del formulari.</p>
+    <h3>Radio buttons</h3>
+    <p>Radio buttons permeten seleccionar una opció d'un conjunt de possibilitats.</p>
+    <h3>Checkboxes</h3>
+    <p>Els checkboxes permeten seleccionar diverses opcions independents.</p>
+    <h2>4. Validació de Formularis</h2>
+    <p>HTML5 introdueix una sèrie de nous atributs i tipus d'entrada per validar els formularis de manera nativa, sense la necessitat de JavaScript.</p>
+
+    <h3>Atribut required:</h3>
+    <p>Marca un camp com a obligatori.</p>
+    <h3>Atribut pattern:</h3>
+    <p>Permet definir un patró amb expressions regulars per validar l'entrada de l'usuari.</p>
+    <h2>5. Tipus d'Entrada Especials</h2>
+    <p>Aquests tipus permeten validar i mostrar els camps de formulari de manera més adequada segons el tipus de dades que esperes obtenir de l'usuari:</p>
+    <ul>
+        <li>&lt;input type="password"&gt;</li>
+        <li>&lt;input type="email"&gt;</li>
+        <li>&lt;input type="url"&gt;</li>
+        <li>&lt;input type="tel"&gt;</li>
+        <li>&lt;input type="number"&gt;</li>
+        <li>&lt;input type="range"&gt;</li>
+        <li>&lt;input type="date"&gt;</li>
+        <li>&lt;input type="time"&gt;</li>
+        <li>&lt;input type="datetime-local"&gt;</li>
+        <li>&lt;input type="month"&gt;</li>
+        <li>&lt;input type="week"&gt;</li>
+        <li>&lt;input type="color"&gt;</li>
+        <li>&lt;input type="file"&gt;</li>
+    </ul>
+
+    <h2>Bones Pràctiques</h2>
+    <p>Aquí tens una llista de bones pràctiques per crear formularis en HTML. Seguint aquestes recomanacions, milloraràs l'experiència d'usuari, l'accessibilitat, la seguretat i l'eficiència dels formularis a les teves pàgines web:</p>
+
+    <h3>IMPORTANT</h3>
+    <ul>
+        <li>Ús de l’etiqueta &lt;label&gt; per millorar l'accessibilitat</li>
+        <li>Utilitza els tipus d'entrada adequats</li>
+        <li>Definir l'atribut required per a camps obligatoris</li>
+        <li>Afegeix la validació nativa amb pattern i min/max</li>
+        <li>Usa placeholder per proporcionar pistes</li>
+        <li>Organitza els camps del formulari en grups lògics</li>
+        <li>Proporciona informació clara sobre els errors</li>
+        <li>Utilitza autocomplete per millorar l’experiència d'usuari</li>
+    </ul>
+
+    <h2>6. Multimèdia amb HTML</h2>
+    <p>HTML5 ha introduït maneres noves i eficients d'integrar multimèdia a les pàgines web, incloent imatges, vídeos, i àudio sense necessitat de plug-ins externs com Flash. Això ha millorat tant la compatibilitat com la usabilitat en múltiples dispositius, especialment en mòbils.</p>
+
+    <h3>Imatges en HTML</h3>
+    <p>L'etiqueta &lt;img&gt; s'utilitza per inserir imatges en una pàgina web. Aquesta etiqueta és auto-tancada (no té etiqueta de tancament).</p>
+    <h4>Atributs principals:</h4>
+    <ul>
+        <li>**src:** Especifica la ruta de la imatge.</li>
+        <li>**alt:** Proporciona un text alternatiu per a la imatge, útil per a l'accessibilitat i SEO.</li>
+        <li>**width i height:** Controlen la mida de la imatge.</li>
+    </ul>
+    <h3>Vídeos en HTML5 (&lt;video&gt;)</h3>
+    <p>HTML5 introdueix l'etiqueta &lt;video&gt; per inserir vídeos de manera nativa a la pàgina web, sense necessitat de plug-ins externs.</p>
+    <h4>Atributs principals:</h4>
+    <ul>
+        <li>**src:** Ruta del fitxer de vídeo.</li>
+        <li>**controls:** Mostra els controls del vídeo (play, pause, volum, etc.).</li>
+        <li>**autoplay:** Fa que el vídeo es reprodueixi automàticament quan es carrega la pàgina.</li>
+        <li>**loop:** Fa que el vídeo es reprodueixi en bucle.</li>
+        <li>**muted:** Reprodueix el vídeo sense so.</li>
+    </ul>
+    <h3>Àudio en HTML5 (&lt;audio&gt;)</h3>
+    <p>De manera similar als vídeos, HTML5 permet inserir àudio natiu amb l'etiqueta &lt;audio&gt;.</p>
+    <h4>Atributs principals:</h4>
+    <ul>
+        <li>**src:** Ruta del fitxer d'àudio.</li>
+        <li>**controls:** Mostra els controls de reproducció d'àudio (play, pause, volum, etc.).</li>
+        <li>**autoplay:** Reprodueix automàticament l'àudio en carregar la pàgina.</li>
+        <li>**loop:** Fa que l'àudio es reprodueixi en bucle.</li>
+        <li>**muted:** Reprodueix l'àudio sense so inicialment.</li>
+    </ul>
+    <h3>IMPORTANT: Bones Pràctiques per Integrar Multimèdia</h3>
+    <ol>
+        <li>Proporciona formats de fitxer compatibles amb els diferents navegadors per a àudio i vídeo (com MP4, WebM, OGG).</li>
+        <li>Utilitza l’atribut alt per a les imatges per millorar l’accessibilitat i optimitzar el SEO.</li>
+        <li>No facis ús de l’atribut autoplay en àudio i vídeo, ja que pot interrompre l'experiència de l'usuari, especialment en dispositius mòbils.</li>
+        <li>Controla la mida dels fitxers multimèdia per evitar temps de càrrega llargs i millorar l'experiència de l'usuari.</li>
+    </ol>
+
+    <h2>7. Etiqueta</h2>
+
+    <h3>Etiqueta &lt;center&gt;</h3>
+    <p>L'etiqueta &lt;center&gt; s'utilitzava en versions antigues d'HTML per centrar el contingut dins d'una pàgina web, tant text com imatges o altres elements. Està obsoleta en HTML5, i s'hauria d'evitar el seu ús. En lloc d'&lt;center&gt;, avui dia es fa servir CSS per centrar els elements de manera més eficient.</p>
+    <h4>IMPORTANT</h4>
+    <p>Està obsoleta no usar.</p>
+
+    <h3>Etiqueta &lt;div&gt;</h3>
+    <p>L'etiqueta &lt;div&gt; (abreviatura de "division") s'utilitza per crear contenidors de bloc en una pàgina HTML. És una etiqueta de nivell de bloc, la qual cosa significa que ocupa tot l'ample disponible i comença en una línia nova. No té significat semàntic en si mateixa; simplement agrupa altres elements, com text, imatges o altres etiquetes, i sol ser estilitzada amb CSS. És útil per organitzar i dissenyar diferents seccions d'una pàgina web.</p>
+    <h4>IMPORTANT</h4>
+    <p>Un dels errors més comuns és l'ús excessiu de &lt;div&gt; per a qualsevol cosa, quan existeixen etiquetes semàntiques més adequades com &lt;header&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;, etc.. Utilitza &lt;div&gt; per agrupar elements que formen una unitat lògica o visual dins de la pàgina, però sempre que no hi hagi una etiqueta semàntica més adequada.</p>
+
+    <h3>Etiqueta &lt;span&gt;</h3>
+    <p>L'etiqueta &lt;span&gt; és una etiqueta inline (en línia) que serveix per estilitzar o manipular petites porcions de text o contingut dins d'una pàgina. A diferència de &lt;div&gt;, no ocupa tot l'ample disponible, sinó que ocupa només l'espai necessari. També és una etiqueta no semàntica, usada principalment per aplicar estils o funcionalitat a un grup específic d'elements dins d'un text.</p>
+    <h4>IMPORTANT</h4>
+    <ul>
+        <li>Ús Adequat de &lt;span&gt; per Estilitzar Text en Línia</li>
+        <li>Evita Ús Excessiu de &lt;span&gt;</li>
+        <li>Combina &lt;span&gt; amb CSS per Mantenir el Codi Netejat.</li>
+        <li>Només per Elements en Línia</li>
+        <li>Evita Abusar del &lt;span&gt; per Crear Contenidors Sense Necessitat</li>
+    </ul>
+
+    <h3>Etiqueta &lt;hr&gt;</h3>
+    <p>En HTML5, l'ús de l'etiqueta &lt;hr&gt; no és només decoratiu. Té un valor semàntic per indicar un canvi de tema o una ruptura en el flux del document, ajudant tant als motors de cerca com a les eines d'accessibilitat a entendre millor l'estructura del contingut.</p>
+    <h4>IMPORTANT</h4>
+    <ul>
+        <li>No abusis de l'etiqueta &lt;hr&gt;: Utilitza-la només quan sigui necessari per separar seccions importants o marcar un canvi de contingut.</li>
+        <li>Estilitza les línies amb CSS: Tot i que &lt;hr&gt; genera una línia per defecte, utilitza CSS per personalitzar-ne l'aspecte i fer que s'ajusti al disseny del teu lloc web.</li>
+        <li>Ús semàntic: Recorda que &lt;hr&gt; es pot utilitzar per indicar un canvi en el contingut o tema dins d'un document, el que també millora l'accessibilitat.</li>
+        <li>Evita utilitzar &lt;hr&gt; per finalitats visuals només: Si necessites una línia només per estil, considera utilitzar CSS en lloc...</li>
+    </ul>
+
+    <h2>8. Metadades en HTML</h2>
+
+    <h3>Metadades per a aplicacions mòbils</h3>
+    <p>Pots utilitzar metadades per millorar com es veu la pàgina quan es desa a la pantalla d'inici en un dispositiu mòbil.</p>
+    <h3>Favicon</h3>
+    <p>Tot i que no és un &lt;meta&gt;, el favicon és una metadada visual important que es mostra a la pestanya del navegador.</p>
+    <h3>lang (atribut)</h3>
+    <p>L'atribut lang es defineix dins de l'etiqueta &lt;html&gt; per especificar l'idioma general de la pàgina, o dins de qualsevol altra etiqueta HTML per marcar un idioma específic dins d'una part del contingut.</p>
+    <h3>IMPORTANT Bones Pràctiques per a l'Ús de Metadades en HTML</h3>
+    <ul>
+        <li>Utilitza el conjunt de caràcters UTF-8 per garantir que tots els caràcters especials es mostrin correctament en tots els dispositius i navegadors.</li>
+        <li>Inclou una descripció rellevant de la pàgina per ajudar els motors de cerca a comprendre millor el contingut i millorar la teva classificació.</li>
+        <li>Optimitza per a mòbils utilitzant l'etiqueta viewport per assegurar que la pàgina s'adapti correctament a diferents dispos...</li>
+    </ul>
+
+</body>
+</html>

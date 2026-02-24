@@ -1,0 +1,137 @@
+[2026-01-22 11:41:33.857] [DISPLAY] [Main ] [launcher] Opening log file.
+[2026-01-22 11:41:33.871] [DISPLAY] [Main ] [startupinfo] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -epicAppId=gta5_gen9  -AUTH_LOGIN=unused -AUTH_PASSWORD=bfe1d0aab432497ebf234c21112148da -AUTH_TYPE=exchangecode -epicapp=8769e24080ea413b8ebca3f1b8c50951 -epicenv=Prod -EpicPortal -epicusername="paauuferreer" -epicuserid=ef75d578b50840a8a6eba7fdce3d5ab9 -epiclocale=es-ES -epicsandboxid=b0cd075465c44f87be3b505ac04a2e46 -rlrosdomainenv=prod @args.txt
+[2026-01-22 11:41:33.871] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo] P4 Version: 
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo] RGL Branch: release_05
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo] Version:    1.0.105.2733
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo] Session ID: 
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo] Name Hash:  00000000
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo] Parameters:
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -skipPatcherCheck
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -epicAppId=gta5_gen9
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -AUTH_LOGIN=unused
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -AUTH_PASSWORD=bfe1d0aab432497ebf234c21112148da
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -AUTH_TYPE=exchangecode
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -epicapp=8769e24080ea413b8ebca3f1b8c50951
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -epicenv=Prod
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -EpicPortal
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -epicusername=paauuferreer
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -epicuserid=ef75d578b50840a8a6eba7fdce3d5ab9
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -epiclocale=es-ES
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -epicsandboxid=b0cd075465c44f87be3b505ac04a2e46
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     -rlrosdomainenv=prod
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startupinfo]     @args.txt
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startup] Initial Working Directory: C:\Program Files\Epic Games\GTAVEnhanced
+[2026-01-22 11:41:33.872] [DISPLAY] [Main ] [startup] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2026-01-22 11:41:33.886] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2026-01-22 11:41:33.887] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2026-01-22 11:41:34.023] [DISPLAY] [Main ] [external] Creating epic min mode launch
+[2026-01-22 11:41:34.023] [DISPLAY] [Main ] [external] Epic App Id: gta5_gen9
+[2026-01-22 11:41:34.023] [DISPLAY] [Main ] [external] Epic Location: C:\Program Files\Epic Games\GTAVEnhanced
+[2026-01-22 11:41:34.023] [DISPLAY] [Main ] [external] Epic Relaunch: false
+[2026-01-22 11:41:34.063] [DISPLAY] [Main ] [external] Running from Epic Games Launcher.
+[2026-01-22 11:41:34.067] [DISPLAY] [Main ] [metadatamanager] Read external Epic metadata: gta5_gen9
+[2026-01-22 11:41:34.067] [DISPLAY] [Main ] [environment] SetEnvironment: prod
+[2026-01-22 11:41:34.075] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\bypau\OneDrive\Documents\Rockstar Games\GTAV Enhanced\User Music
+[2026-01-22 11:41:34.077] [DISPLAY] [Main ] [subsystem] Init phase 1
+[2026-01-22 11:41:34.078] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe
+[2026-01-22 11:41:34.080] [DISPLAY] [Main ] [svc] Service version: 1.0.105.2733 (1.0.105.2733)
+[2026-01-22 11:41:34.080] [DISPLAY] [Main ] [svc] Starting service (attempt 1 / 3)...
+[2026-01-22 11:41:34.088] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2026-01-22 11:41:34.088] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2026-01-22 11:41:34.112] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [subsystem] Initializing group 0...
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [subsystem] Init phase 2
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [subsystem] Starting systems...
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: es-ES
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [subsystem] Starting diag...
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [fileutils] Checking local versions...
+[2026-01-22 11:41:34.120] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-22 11:41:34.122] [DISPLAY] [Main ] [fileutils] Checking RGL version...
+[2026-01-22 11:41:34.122] [DISPLAY] [Main ] [fileutils] Version: 2.4.0.146 | 1.0.105.2733 | FFP
+[2026-01-22 11:41:34.122] [DISPLAY] [Main ] [subsystem] Starting net...
+[2026-01-22 11:41:34.139] [DISPLAY] [Main ] [subsystem] Assigning pools...
+[2026-01-22 11:41:34.139] [DISPLAY] [Main ] [subsystem] Initializing engine...
+[2026-01-22 11:41:34.140] [DISPLAY] [Main ] [subsystem] Initializing group 1...
+[2026-01-22 11:41:34.174] [DISPLAY] [Workr] [selfupdate] Self-update not ready to apply yet.
+[2026-01-22 11:41:34.436] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2026-01-22 11:41:34.951] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2026-01-22 11:41:34.957] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.26200) >= 10
+[2026-01-22 11:41:34.994] [DISPLAY] [Workr] [marketing_promo] No promotion manifest in memory, refreshing from cloud.
+[2026-01-22 11:41:34.994] [DISPLAY] [Workr] [marketing_promo] Requesting new manifest
+[2026-01-22 11:41:34.994] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2026-01-22 11:41:34.994] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2026-01-22 11:41:34.994] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2026-01-22 11:41:35.698] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2026-01-22 11:41:35.698] [DISPLAY] [Workr] [services] Obtained NA-BAT
+[2026-01-22 11:41:35.698] [DISPLAY] [Workr] [services] Parsed response from GetDefaultApps: 1 title(s), 1 branch(es)
+[2026-01-22 11:41:35.698] [DISPLAY] [Workr] [titlemanager] Retrieved default title: launcher
+[2026-01-22 11:41:35.698] [DISPLAY] [Workr] [titlemanager] Launcher tokens: BAT: false, NA-BAT: true
+[2026-01-22 11:41:35.698] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2026-01-22 11:41:35.698] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2026-01-22 11:41:35.721] [DISPLAY] [Workr] [mergedmanifest] Using regular build for launcher
+[2026-01-22 11:41:35.721] [DISPLAY] [Workr] [titleupdater] Doing chunk checks for launcher...
+[2026-01-22 11:41:35.774] [DISPLAY] [Workr] [titleupdater] Checked 55 chunk(s), 0 were empty, skipped 0 chunk(s) and 5 file(s)
+[2026-01-22 11:41:35.775] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: 0.0 KB / 43.31 MB
+[2026-01-22 11:41:35.775] [DISPLAY] [Workr] [selfupdate] Updating launcher...
+[2026-01-22 11:41:35.775] [DISPLAY] [Workr] [selfupdate] Branch 4, build 1139: Has NA-BAT
+[2026-01-22 11:41:35.775] [DISPLAY] [Workr] [diffpatch] 0 patchable files, total of 0.0 KB to download.
+[2026-01-22 11:41:35.776] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2026-01-22 11:41:36.334] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2026-01-22 11:41:48.304] [DISPLAY] [Workr] [downloadprogress] Dl: D|45416568|12|1|0|0
+[2026-01-22 11:41:48.309] [DISPLAY] [Workr] [titleupdater] Doing chunk checks for launcher...
+[2026-01-22 11:41:48.315] [DISPLAY] [Workr] [titleupdater] Checked 55 chunk(s), 0 were empty, skipped 1 chunk(s) and 4 file(s)
+[2026-01-22 11:41:48.315] [WARNING] [Workr] [titleupdater] Attempting to remove missing file from current update: C:\Program Files\Rockstar Games\Launcher\ThirdParty\Crashpad\RockstarErrorHandler.exe
+[2026-01-22 11:41:48.315] [WARNING] [Workr] [titleupdater] Attempting to remove missing file from current update: C:\Program Files\Rockstar Games\Launcher\ThirdParty\D3D12\D3D12Core.dll
+[2026-01-22 11:41:48.315] [WARNING] [Workr] [titleupdater] Attempting to remove missing file from current update: C:\Program Files\Rockstar Games\Launcher\ThirdParty\D3D12\d3d12SDKLayers.dll
+[2026-01-22 11:41:48.315] [WARNING] [Workr] [titleupdater] Attempting to remove missing file from current update: C:\Program Files\Rockstar Games\Launcher\ThirdParty\Epic\EOSSDK-Win64-Shipping-1.17.1.3.dll
+[2026-01-22 11:41:48.328] [DISPLAY] [Workr] [titleupdater] Launcher needs to restart to be made up-to-date.
+[2026-01-22 11:41:48.328] [DISPLAY] [Workr] [titleupdater] Update of Rockstar Games Launcher succeeded; needs restart to complete.
+[2026-01-22 11:41:48.342] [DISPLAY] [Workr] [selfupdate] Applying downloaded self-update...
+[2026-01-22 11:41:48.909] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-01-22 11:41:48.910] [DISPLAY] [Workr] [title] Current version for title [pv] Rockstar Games Launcher : 1.0.105.2733
+[2026-01-22 11:41:49.024] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-01-22 11:41:49.024] [DISPLAY] [Workr] [title] Current version for title [pv] Rockstar Games Launcher : 1.0.105.2733
+[2026-01-22 11:41:49.422] [DISPLAY] [Workr] [selfupdate] Self-update applied, need to restart.
+[2026-01-22 11:41:49.439] [DISPLAY] [Workr] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2026-01-22 11:41:49.439] [DISPLAY] [Workr] [launcher] Restarting to apply self-update...
+[2026-01-22 11:41:49.439] [DISPLAY] [Workr] [lifecycle] Setting to restart after exit.
+[2026-01-22 11:41:49.439] [DISPLAY] [Workr] [external] Requesting Epic re-launch of title '8769e24080ea413b8ebca3f1b8c50951'
+[2026-01-22 11:41:49.439] [DISPLAY] [Workr] [lifecycle] Restart args: -skipPatcherCheck -EpicPortal -epiclocale=es-ES -epicsandboxid=b0cd075465c44f87be3b505ac04a2e46 -rlrosdomainenv=prod @args.txt -upgrade -relaunchFromEpic=8769e24080ea413b8ebca3f1b8c50951
+[2026-01-22 11:41:49.439] [DISPLAY] [Workr] [launcher] Shutdown requested! Forced: false
+[2026-01-22 11:41:49.439] [DISPLAY] [Workr] [launcher] Completed Pre-initialization tasks
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_REQUESTED -> SHUTDOWN_MAIN_WINDOW
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_MAIN_WINDOW -> SHUTDOWN_STARTUP_WINDOW
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_STARTUP_WINDOW -> SHUTDOWN_NOTIFICATION_MANAGER
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_NOTIFICATION_MANAGER -> SHUTDOWN_GAME_LAUNCHER
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_GAME_LAUNCHER -> SHUTDOWN_WINDOW_CONTROLLER
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_WINDOW_CONTROLLER -> SHUTDOWN_STOP_WORKER_THREADS
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_STOP_WORKER_THREADS -> SHUTDOWN_TITLES
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_TITLES -> SHUTDOWN_DISK
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_DISK -> SHUTDOWN_BACKGROUND_SERVICE
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_BACKGROUND_SERVICE -> SHUTDOWN_TELEMETRY
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_TELEMETRY -> SHUTDOWN_CACHED_REQUEST_MANAGER
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_CACHED_REQUEST_MANAGER -> SHUTDOWN_SETTINGS_MANAGER
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_SETTINGS_MANAGER -> SHUTDOWN_SDK
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_SDK -> SHUTDOWN_PRESENCE
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_PRESENCE -> SHUTDOWN_SUBSYSTEMS
+[2026-01-22 11:41:49.443] [DISPLAY] [Main ] [launcher] SHUTDOWN_SUBSYSTEMS -> SHUTDOWN_IN_PROGRESS
+[2026-01-22 11:41:49.444] [DISPLAY] [Main ] [launcher] Telemetry flushed
+[2026-01-22 11:41:49.444] [DISPLAY] [Main ] [launcher] Window destroyed
+[2026-01-22 11:41:49.444] [DISPLAY] [Main ] [launcher] SDK ready for shutdown
+[2026-01-22 11:41:49.444] [DISPLAY] [Main ] [launcher] Notifications cleared
+[2026-01-22 11:41:49.444] [DISPLAY] [Main ] [launcher] No games running
+[2026-01-22 11:41:49.474] [DISPLAY] [Main ] [launcher] Worker Threads shutdown
+[2026-01-22 11:41:49.615] [DISPLAY] [Main ] [launcher] Title state flushed
+[2026-01-22 11:41:49.615] [DISPLAY] [Main ] [launcher] Disk state flushed
+[2026-01-22 11:41:49.615] [DISPLAY] [Main ] [launcher] Cached Requests cleared
+[2026-01-22 11:41:49.615] [DISPLAY] [Main ] [launcher] Settings saved
+[2026-01-22 11:41:49.615] [DISPLAY] [Main ] [launcher] Presence signed out
+[2026-01-22 11:41:49.615] [DISPLAY] [Main ] [launcher] All subsystems have shut down
+[2026-01-22 11:41:49.631] [DISPLAY] [Main ] [launcher] SHUTDOWN_IN_PROGRESS -> SHUTDOWN_COMPLETE
+[2026-01-22 11:41:49.631] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2026-01-22 11:41:49.631] [DISPLAY] [Main ] [launcher] SHUTDOWN_COMPLETE -> SHUTDOWN_EXITING
+[2026-01-22 11:41:49.691] [DISPLAY] [Main ] [svc] Stopping the background service.

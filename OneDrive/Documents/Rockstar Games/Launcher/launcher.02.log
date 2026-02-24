@@ -1,0 +1,678 @@
+[2026-01-23 13:07:04.967] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-01-23 13:07:05.024] [DISPLAY] [Main ] [dx12] Retrieving D3D12 graphics info
+[2026-01-23 13:07:06.331] [DISPLAY] [Main ] [launcher] Opening log file.
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -epicAppId=gta5_gen9  -AUTH_LOGIN=unused -AUTH_PASSWORD=2b5ef86a4ce5490e86e029513825388c -AUTH_TYPE=exchangecode -epicapp=8769e24080ea413b8ebca3f1b8c50951 -epicenv=Prod -EpicPortal -epicusername="paauuferreer" -epicuserid=ef75d578b50840a8a6eba7fdce3d5ab9 -epiclocale=es-ES -epicsandboxid=b0cd075465c44f87be3b505ac04a2e46 -rlrosdomainenv=prod @args.txt
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo] P4 Version: 
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo] RGL Branch: release_05
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo] Version:    1.0.105.2733
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo] Session ID: dd9aec01-dcaa-11bc-b0b4-0b874df0659e
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo] Name Hash:  5BDE5F56
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo] Parameters:
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -skipPatcherCheck
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -epicAppId=gta5_gen9
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -AUTH_LOGIN=unused
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -AUTH_PASSWORD=2b5ef86a4ce5490e86e029513825388c
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -AUTH_TYPE=exchangecode
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -epicapp=8769e24080ea413b8ebca3f1b8c50951
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -epicenv=Prod
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -EpicPortal
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -epicusername=paauuferreer
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -epicuserid=ef75d578b50840a8a6eba7fdce3d5ab9
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -epiclocale=es-ES
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -epicsandboxid=b0cd075465c44f87be3b505ac04a2e46
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     -rlrosdomainenv=prod
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startupinfo]     @args.txt
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startup] Initial Working Directory: C:\Program Files\Epic Games\GTAVEnhanced
+[2026-01-23 13:07:06.347] [DISPLAY] [Main ] [startup] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2026-01-23 13:07:06.361] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2026-01-23 13:07:06.362] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2026-01-23 13:07:06.495] [DISPLAY] [Main ] [external] Creating epic min mode launch
+[2026-01-23 13:07:06.495] [DISPLAY] [Main ] [external] Epic App Id: gta5_gen9
+[2026-01-23 13:07:06.495] [DISPLAY] [Main ] [external] Epic Location: C:\Program Files\Epic Games\GTAVEnhanced
+[2026-01-23 13:07:06.495] [DISPLAY] [Main ] [external] Epic Relaunch: false
+[2026-01-23 13:07:06.548] [DISPLAY] [Main ] [external] Running from Epic Games Launcher.
+[2026-01-23 13:07:06.551] [DISPLAY] [Main ] [metadatamanager] Read external Epic metadata: gta5_gen9
+[2026-01-23 13:07:06.551] [DISPLAY] [Main ] [environment] SetEnvironment: prod
+[2026-01-23 13:07:06.560] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\bypau\OneDrive\Documents\Rockstar Games\GTAV Enhanced\User Music
+[2026-01-23 13:07:06.563] [DISPLAY] [Main ] [subsystem] Init phase 1
+[2026-01-23 13:07:06.564] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe
+[2026-01-23 13:07:06.567] [DISPLAY] [Main ] [svc] Service version: 1.0.105.2733 (1.0.105.2733)
+[2026-01-23 13:07:06.567] [DISPLAY] [Main ] [svc] Starting service (attempt 1 / 3)...
+[2026-01-23 13:07:06.578] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2026-01-23 13:07:06.578] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2026-01-23 13:07:06.601] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-23 13:07:06.610] [DISPLAY] [Main ] [subsystem] Initializing group 0...
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [subsystem] Init phase 2
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [subsystem] Starting systems...
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: es-ES
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [localisation] Language updated to: 4
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [subsystem] Starting diag...
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [fileutils] Checking local versions...
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [fileutils] Checking RGL version...
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [fileutils] Version: 2.4.0.146 | 1.0.105.2733 | FFP
+[2026-01-23 13:07:06.611] [DISPLAY] [Main ] [subsystem] Starting net...
+[2026-01-23 13:07:06.626] [DISPLAY] [Main ] [subsystem] Assigning pools...
+[2026-01-23 13:07:06.626] [DISPLAY] [Main ] [subsystem] Initializing engine...
+[2026-01-23 13:07:06.627] [DISPLAY] [Main ] [subsystem] Initializing group 1...
+[2026-01-23 13:07:06.647] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2026-01-23 13:07:06.878] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2026-01-23 13:07:06.885] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.26200) >= 10
+[2026-01-23 13:07:07.087] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2026-01-23 13:07:07.236] [DISPLAY] [Workr] [marketing_promo] No promotion manifest in memory, refreshing from cloud.
+[2026-01-23 13:07:07.236] [DISPLAY] [Workr] [marketing_promo] Requesting new manifest
+[2026-01-23 13:07:07.236] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2026-01-23 13:07:07.236] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2026-01-23 13:07:07.236] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2026-01-23 13:07:07.251] [DISPLAY] [http1] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2026-01-23 13:07:07.498] [DISPLAY] [http1] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2026-01-23 13:07:07.718] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2026-01-23 13:07:07.718] [DISPLAY] [Workr] [services] Obtained NA-BAT
+[2026-01-23 13:07:07.718] [DISPLAY] [Workr] [services] Parsed response from GetDefaultApps: 1 title(s), 1 branch(es)
+[2026-01-23 13:07:07.718] [DISPLAY] [Workr] [titlemanager] Retrieved default title: launcher
+[2026-01-23 13:07:07.718] [DISPLAY] [Workr] [titlemanager] Launcher tokens: BAT: false, NA-BAT: true
+[2026-01-23 13:07:07.719] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2026-01-23 13:07:07.719] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2026-01-23 13:07:07.755] [DISPLAY] [Workr] [mergedmanifest] Using regular build for launcher
+[2026-01-23 13:07:07.755] [DISPLAY] [Workr] [titleupdater] Doing chunk checks for launcher...
+[2026-01-23 13:07:07.798] [DISPLAY] [Workr] [titleupdater] Checked 60 chunk(s), 0 were empty, skipped 0 chunk(s) and 0 file(s)
+[2026-01-23 13:07:07.798] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: No update
+[2026-01-23 13:07:07.814] [DISPLAY] [Workr] [launcher] No self-update, continuing.
+[2026-01-23 13:07:07.852] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2026-01-23 13:07:07.852] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-23 13:07:07.853] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe
+[2026-01-23 13:07:07.859] [DISPLAY] [Workr] [preqmanager] The Social Club version available matches that currently installed (both: 2.4.0.146)
+[2026-01-23 13:07:07.859] [DISPLAY] [Workr] [titleupdater] No prerequisites to install.
+[2026-01-23 13:07:07.859] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2026-01-23 13:07:07.859] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-23 13:07:08.015] [DISPLAY] [Workr] [launcher] Completed Pre-initialization tasks
+[2026-01-23 13:07:08.044] [DISPLAY] [Main ] [subsystem] Init phase 3
+[2026-01-23 13:07:08.044] [DISPLAY] [Main ] [subsystem] RGL Offline Assets path: C:\Program Files\Rockstar Games\Launcher\offline.pak
+[2026-01-23 13:07:08.044] [DISPLAY] [Main ] [subsystem] Intializing connection manager.
+[2026-01-23 13:07:08.044] [DISPLAY] [Main ] [subsystem] Initializing RAGE networking.
+[2026-01-23 13:07:08.176] [DISPLAY] [Main ] [subsystem] Initializing group 2...
+[2026-01-23 13:07:09.195] [DISPLAY] [Workr] [dx12] Retrieving D3D12 graphics info
+[2026-01-23 13:07:09.579] [DISPLAY] [Workr] [sysinfo] System Configuration: 
+ CPU Info:
+  ID: AMD64 Family 25 Model 68 Stepping 1
+  Name: AMD Ryzen 7 7735HS with Radeon Graphics        
+  Clock Speed: 3.19 GHZ
+  Physical Cores: 8
+  Logical Cores: 16
+  SSE 4.1: enabled
+  SSE 4.2: enabled
+
+ Disk 0 (C:\)
+  Disk Type: NVMe
+  Bytes Free: 614745616384
+  Bytes Total: 1023306362880
+
+Memory Info:
+ 17179869184 B
+ 16 GB
+
+ GPU 0
+  Description: NVIDIA GeForce RTX 4050 Laptop GPU
+  Capacity (Bytes): 6208618496
+  Display Capacity: 6.0 GB
+
+ GPU 1
+  Description: AMD Radeon(TM) Graphics
+  Capacity (Bytes): 506949632
+  Display Capacity: 0.5 GB
+[2026-01-23 13:07:09.582] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/marketing.json'
+[2026-01-23 13:07:10.674] [DISPLAY] [Main ] [sysinfo] Identified device Type: 0
+[2026-01-23 13:07:10.720] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/marketing.json' (status: 0/200)
+[2026-01-23 13:07:10.829] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2026-01-23 13:07:10.829] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-23 13:07:10.830] [DISPLAY] [Admin] [external] Setting up epic title: gta5_gen9
+[2026-01-23 13:07:10.876] [DISPLAY] [Workr] [fileutils] Could not enumerate files in folder 'C:\Users\bypau\AppData\Local\Rockstar Games\Launcher\IconCache', path not found.
+[2026-01-23 13:07:11.018] [DISPLAY] [Main ] [launcher] Time to start up: 6109 ms
+[2026-01-23 13:07:11.034] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2026-01-23 13:07:11.134] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Invalid -> Auth
+[2026-01-23 13:07:11.134] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Invalid -> WaitForBrowser
+[2026-01-23 13:07:11.135] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2026-01-23 13:07:12.472] [DISPLAY] [Main ] [launcher] OnEpicEvent :: 0 received
+[2026-01-23 13:07:12.496] [DISPLAY] [Admin] [metadatamanager] Read external Epic metadata: gta5_gen9
+[2026-01-23 13:07:12.708] [DISPLAY] [Admin] [external] Epic ownership request indicated valid entitlement of at least once audience
+[2026-01-23 13:07:12.714] [DISPLAY] [Admin] [external] Successfully setup title
+[2026-01-23 13:07:12.714] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
+[2026-01-23 13:07:14.738] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2026-01-23 13:07:16.507] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2026-01-23 13:07:16.507] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2026-01-23 13:07:16.507] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2026-01-23 13:07:20.429] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Auth -> MainWindow
+[2026-01-23 13:07:20.429] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2026-01-23 13:07:20.462] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 96,96
+[2026-01-23 13:07:20.462] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.00
+[2026-01-23 13:07:20.462] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 165,140 (1590 x 742)
+[2026-01-23 13:07:20.487] [DISPLAY] [Main ] [launcher] Presence Event - Signed In
+[2026-01-23 13:07:20.487] [DISPLAY] [Main ] [launcher] User 'Dozuyl' is now signed in
+[2026-01-23 13:07:20.513] [DISPLAY] [Main ] [launcher] Presence Event :: Went Online
+[2026-01-23 13:07:20.513] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2026-01-23 13:07:20.514] [DISPLAY] [Main ] [scuicallbacks] Enabling Downloading
+[2026-01-23 13:07:20.514] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2026-01-23 13:07:20.514] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2026-01-23 13:07:20.516] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2026-01-23 13:07:20.759] [DISPLAY] [Main ] [external] Attempting external title launch...
+[2026-01-23 13:07:20.760] [DISPLAY] [Main ] [gamelaunch] Begin game launch: gta5_gen9
+[2026-01-23 13:07:20.760] [DISPLAY] [Main ] [gamelaunch] Flags: 67
+[2026-01-23 13:07:20.760] [DISPLAY] [Main ] [gamelaunch] Path: C:\Program Files\Epic Games\GTAVEnhanced
+[2026-01-23 13:07:20.786] [DISPLAY] [Main ] [telemetrymanager] Secondary platform is set to: 9
+[2026-01-23 13:07:20.795] [DISPLAY] [77704] [gamelaunch] Launch Folder: C:\Program Files\Epic Games\GTAVEnhanced
+[2026-01-23 13:07:20.795] [DISPLAY] [77704] [gamelaunch] Launch Path: C:\Program Files\Epic Games\GTAVEnhanced\GTA5_Enhanced.exe
+[2026-01-23 13:07:20.795] [DISPLAY] [77704] [fileutils] Checking version: C:\Program Files\Epic Games\GTAVEnhanced\GTA5_Enhanced.exe
+[2026-01-23 13:07:20.805] [DISPLAY] [77704] [gamelaunch] RGL is up to date (current: 1.0.105.2733, minimum: 1.0.101.2370)
+[2026-01-23 13:07:20.805] [DISPLAY] [77704] [fileutils] Checking version: C:\Program Files\Epic Games\GTAVEnhanced\GTA5_Enhanced.exe
+[2026-01-23 13:07:20.806] [DISPLAY] [77704] [gamelaunch] Grand Theft Auto V Enhanced is up to date (current: 1.0.1013.20, minimum: 1.0.812.5)
+[2026-01-23 13:07:20.806] [DISPLAY] [77704] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-01-23 13:07:20.851] [DISPLAY] [Main ] [launcher] Friend Event - Friends are Available
+[2026-01-23 13:07:22.227] [DISPLAY] [Main ] [services] Parsed response from GetApps: 22 title(s), 1 branch(es)
+[2026-01-23 13:07:22.270] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2026-01-23 13:07:23.302] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2026-01-23 13:07:23.302] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2026-01-23 13:07:24.062] [DISPLAY] [Main ] [services] Parsed response from GetApps: 22 title(s), 1 branch(es)
+[2026-01-23 13:07:24.091] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2026-01-23 13:07:25.407] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5_gen9'
+[2026-01-23 13:07:25.439] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5_gen9'
+[2026-01-23 13:07:25.440] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5_gen9' = enabled
+[2026-01-23 13:07:25.440] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta5_gen9'
+[2026-01-23 13:07:26.009] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5_gen9'
+[2026-01-23 13:07:26.009] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta5_gen9'
+[2026-01-23 13:07:26.040] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta5_gen9'
+[2026-01-23 13:07:26.040] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta5_gen9'
+[2026-01-23 13:07:26.071] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta5_gen9'
+[2026-01-23 13:07:26.071] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta5_gen9'
+[2026-01-23 13:07:26.102] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta5_gen9'
+[2026-01-23 13:07:26.102] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta5_gen9'
+[2026-01-23 13:07:26.134] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta5_gen9'
+[2026-01-23 13:07:26.134] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta5_gen9'
+[2026-01-23 13:07:26.168] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5_gen9'
+[2026-01-23 13:07:27.277] [DISPLAY] [net1 ] [audio] Valid Audio Device: true
+[2026-01-23 13:07:29.206] [DISPLAY] [77704] [gamelaunch] Launching game...
+[2026-01-23 13:07:29.206] [DISPLAY] [77704] [gamelaunch]  Path: C:\Program Files\Epic Games\GTAVEnhanced\GTA5_Enhanced_BE.exe
+[2026-01-23 13:07:29.206] [DISPLAY] [77704] [gamelaunch]  Command Line: "C:\Program Files\Epic Games\GTAVEnhanced\GTA5_Enhanced_BE.exe" -skipPatcherCheck -epicAppId=gta5_gen9 -AUTH_LOGIN=unused -AUTH_PASSWORD=2b5ef86a4ce5490e86e029513825388c -AUTH_TYPE=exchangecode -epicapp=8769e24080ea413b8ebca3f1b8c50951 -epicenv=Prod -EpicPortal -epicusername=paauuferreer -epicuserid=ef75d578b50840a8a6eba7fdce3d5ab9 -epiclocale=es-ES -epicsandboxid=b0cd075465c44f87be3b505ac04a2e46 -rlrosdomainenv=prod @args.txt -enableCrashpad -useEpic -scCommerceProvider=4 @commandline.txt -fromRGL -scDiscordClientId=1329870933695135785 -rglLanguage=es-ES
+[2026-01-23 13:07:29.206] [DISPLAY] [77704] [gamelaunch]  Working Directory: C:\Program Files\Epic Games\GTAVEnhanced
+[2026-01-23 13:07:36.222] [DISPLAY] [Main ] [scuicallbacks] Minimize requested
+[2026-01-23 13:08:32.151] [DISPLAY] [Main ] [launcher] Shutdown requested! Forced: false
+[2026-01-23 13:08:32.212] [DISPLAY] [77704] [gamelaunch] Aborting game launch due to exit being requested.
+[2026-01-23 13:08:32.255] [DISPLAY] [77704] [launcher] Shutdown requested! Forced: false
+[2026-01-23 13:08:32.256] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2026-01-23 13:08:32.256] [DISPLAY] [Main ] [launcher] SHUTDOWN_REQUESTED -> SHUTDOWN_MAIN_WINDOW
+[2026-01-23 13:08:32.281] [DISPLAY] [Main ] [launcher] SHUTDOWN_MAIN_WINDOW -> SHUTDOWN_STARTUP_WINDOW
+[2026-01-23 13:08:32.281] [DISPLAY] [Main ] [launcher] SHUTDOWN_STARTUP_WINDOW -> SHUTDOWN_NOTIFICATION_MANAGER
+[2026-01-23 13:08:32.281] [DISPLAY] [Main ] [launcher] SHUTDOWN_NOTIFICATION_MANAGER -> SHUTDOWN_GAME_LAUNCHER
+[2026-01-23 13:08:32.281] [DISPLAY] [Main ] [launcher] SHUTDOWN_GAME_LAUNCHER -> SHUTDOWN_WINDOW_CONTROLLER
+[2026-01-23 13:08:32.383] [DISPLAY] [Main ] [launcher] SHUTDOWN_WINDOW_CONTROLLER -> SHUTDOWN_STOP_WORKER_THREADS
+[2026-01-23 13:08:32.383] [DISPLAY] [Main ] [launcher] SHUTDOWN_STOP_WORKER_THREADS -> SHUTDOWN_TITLES
+[2026-01-23 13:08:32.383] [DISPLAY] [Main ] [launcher] SHUTDOWN_TITLES -> SHUTDOWN_DISK
+[2026-01-23 13:08:32.383] [DISPLAY] [Main ] [launcher] SHUTDOWN_DISK -> SHUTDOWN_BACKGROUND_SERVICE
+[2026-01-23 13:08:32.383] [DISPLAY] [Main ] [launcher] SHUTDOWN_BACKGROUND_SERVICE -> SHUTDOWN_TELEMETRY
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [launcher] SHUTDOWN_TELEMETRY -> SHUTDOWN_CACHED_REQUEST_MANAGER
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [launcher] SHUTDOWN_CACHED_REQUEST_MANAGER -> SHUTDOWN_SETTINGS_MANAGER
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [launcher] SHUTDOWN_SETTINGS_MANAGER -> SHUTDOWN_STOP_BACKGROUND_SERVICE
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [svc] Stopping the background service.
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [launcher] SHUTDOWN_STOP_BACKGROUND_SERVICE -> SHUTDOWN_SDK
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [launcher] SHUTDOWN_SDK -> SHUTDOWN_PRESENCE
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [launcher] SHUTDOWN_PRESENCE -> SHUTDOWN_SUBSYSTEMS
+[2026-01-23 13:08:32.384] [DISPLAY] [Main ] [launcher] SHUTDOWN_SUBSYSTEMS -> SHUTDOWN_IN_PROGRESS
+[2026-01-23 13:08:33.226] [WARNING] [Main ] [worker] Not adding job (15) due to thread exiting
+[2026-01-23 13:08:33.242] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.259] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.276] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.293] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.310] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.327] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.360] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.377] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.394] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.411] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.428] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.463] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.479] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.496] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.513] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.546] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.563] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.580] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.614] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.697] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.714] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.747] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.764] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.780] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.814] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.831] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.848] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.865] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.882] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.898] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.916] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.932] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.949] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:33.966] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.000] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.017] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.034] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.051] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.068] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.084] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.101] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.117] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.135] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.169] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.206] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.257] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.274] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.324] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.358] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.375] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.392] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.427] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.460] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.478] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.494] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.511] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.546] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.579] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.613] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.630] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.647] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.681] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.698] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.733] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.750] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.784] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.817] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.850] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.868] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.918] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.953] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:34.986] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.004] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.037] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.055] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.071] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.124] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.174] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.208] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.261] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.293] [DISPLAY] [Main ] [launcher] Telemetry flushed
+[2026-01-23 13:08:35.293] [DISPLAY] [Main ] [launcher] Window destroyed
+[2026-01-23 13:08:35.293] [DISPLAY] [Main ] [launcher] SDK ready for shutdown
+[2026-01-23 13:08:35.293] [DISPLAY] [Main ] [launcher] Notifications cleared
+[2026-01-23 13:08:35.293] [DISPLAY] [Main ] [launcher] No games running
+[2026-01-23 13:08:35.293] [DISPLAY] [Main ] [launcher] Worker Threads shutdown
+[2026-01-23 13:08:35.327] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.415] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.450] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.484] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.518] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.536] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.569] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.586] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.620] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.637] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.653] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.670] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.687] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.703] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.720] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.737] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.754] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.770] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.787] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.804] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.821] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.838] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.855] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.871] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.888] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.905] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.921] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.939] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.955] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:35.989] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.005] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.022] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.039] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.056] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.072] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.089] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.106] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.123] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.140] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.157] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.174] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.192] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.209] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.226] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.243] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.260] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.276] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.293] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.326] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.343] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.360] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.376] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.393] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.410] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.427] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.460] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.477] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.494] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.510] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.528] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.561] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.579] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.596] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.613] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.630] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.647] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.680] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.697] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.714] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.748] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.780] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.797] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.814] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.831] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.847] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.864] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.881] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.897] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.914] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.931] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.947] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.964] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.981] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:36.998] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.015] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.048] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.066] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.083] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.100] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.117] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.168] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.185] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.218] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.235] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.252] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.269] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.286] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.303] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.337] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.354] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.371] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.387] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.404] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.421] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.437] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.454] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.470] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.487] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.504] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.521] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.537] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.554] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.571] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.587] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.604] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.637] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.654] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.688] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.721] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.738] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.754] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.771] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.788] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.805] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.822] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.838] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.855] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.872] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.888] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.906] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.922] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.939] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.955] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.973] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:37.990] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.006] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.024] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.041] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.057] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.074] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.091] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.107] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.124] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.141] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.157] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.174] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.190] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.207] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.224] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.241] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.258] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.274] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.291] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.307] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.325] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.357] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.374] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.392] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.408] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.425] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.442] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.458] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.475] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.491] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.508] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.525] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.542] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.559] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.576] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.593] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.610] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.626] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.643] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.660] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.676] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.693] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.710] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.726] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.743] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.759] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.777] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.794] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.810] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.827] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.843] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.860] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.876] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.893] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.910] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.926] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.943] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.960] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.977] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:38.994] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.010] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.027] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.043] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.060] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.077] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.093] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.110] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.126] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.143] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.160] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.176] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.193] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.210] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.226] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.243] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.260] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.276] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.293] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.310] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.327] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.361] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.377] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.394] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.411] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.427] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.444] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.460] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.477] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.494] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.510] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.527] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.544] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.560] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.577] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.594] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.610] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.627] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.643] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.660] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.677] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.694] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.711] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.744] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.761] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.779] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.813] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.830] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.847] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.863] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.881] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.897] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.914] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.931] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.948] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.964] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.981] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:39.998] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.015] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.031] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.048] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.064] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.082] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.098] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.115] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.131] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.148] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.165] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.182] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.198] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.215] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.232] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.248] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.265] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.282] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.299] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.316] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.333] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.350] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.367] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.383] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.400] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.417] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.434] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.450] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.467] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.483] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.500] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.517] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.533] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.550] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.567] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.584] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.601] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.617] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.634] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.651] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.668] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.684] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.701] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.717] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.734] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.751] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.784] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.802] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.834] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.869] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.902] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.954] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:40.986] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.021] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.054] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.104] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.139] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.172] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.207] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.275] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.307] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.340] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.357] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.390] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.406] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.423] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.440] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.457] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.473] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.507] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.525] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.558] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.591] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.607] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.640] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.658] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.674] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.707] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.723] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.741] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.757] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.774] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.790] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.807] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.824] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.857] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.874] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.891] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.907] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.923] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.940] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.973] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:41.990] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.007] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.024] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.041] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.057] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.074] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.091] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.107] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.124] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.140] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.157] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.174] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.190] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.273] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.290] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.307] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.323] [WARNING] [net2 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.340] [WARNING] [net1 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.356] [WARNING] [net3 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.390] [WARNING] [net4 ] [titlestorage] Background service unavailable: Titles file cannot be written.
+[2026-01-23 13:08:42.390] [ ERROR ] [Main ] [titlemanager] Timed out trying to flush title data!
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] Title state flushed
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] Disk state flushed
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] Cached Requests cleared
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] Settings saved
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] Presence signed out
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] All subsystems have shut down
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] SHUTDOWN_IN_PROGRESS -> SHUTDOWN_COMPLETE
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2026-01-23 13:08:42.390] [DISPLAY] [Main ] [launcher] SHUTDOWN_COMPLETE -> SHUTDOWN_EXITING

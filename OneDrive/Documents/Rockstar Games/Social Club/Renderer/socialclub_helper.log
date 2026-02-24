@@ -1,0 +1,14 @@
+[2026-01-23 13:08:43.391] [118480] [11D18] ===================================
+[2026-01-23 13:08:43.392] [118480] [11D18] Browser process opened from pid: 47392
+[2026-01-23 13:08:43.393] [118480] [11D18] Language: es
+[2026-01-23 13:08:43.395] [118480] [11D18] Connecting to IPC channel: rgsc_ipc_b920_channel_0
+[2026-01-23 13:08:43.398] [118480] [11D18] Product version: RockstarGames/2.4.0.146/1.0.1013.20/gta5/Epic
+[2026-01-23 13:08:43.563] [118480] [11D18] OnChannelConnected - rgsc_ipc_b920_channel_0 (remoteProcessId 47392)
+[2026-01-23 13:08:45.398] [118480] [11D18] Renderer[1][111964] IPC Channel Response: 111964 -> rgsc_ipc_b920_channel_1
+[2026-01-23 13:08:45.401] [118480] [11D18] Renderer[1][111964] Connecting to IPC channel: rgsc_ipc_b920_channel_1
+[2026-01-23 13:08:45.428] [118480] [11D18] Renderer[1][111964] OnChannelConnected - rgsc_ipc_b920_channel_1 (remoteProcessId 47392)
+[2026-01-23 13:55:45.422] [118480] [11D18] OnChannelError() - rgsc_ipc_b920_channel_0
+[2026-01-23 13:55:45.435] [118480] [11D18] Shutdown requested
+[2026-01-23 13:55:50.445] [118480] [11D18] Timed out waiting for windows to close on shutdown
+[2026-01-23 13:55:50.460] [118480] [11D18] MainMessageLoopInternalPump - Preparing to shutdown
+[2026-01-23 13:55:53.594] [118480] [11D18] MainMessageLoopInternalPump - Shutdown

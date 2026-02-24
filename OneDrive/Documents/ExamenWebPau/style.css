@@ -1,0 +1,271 @@
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+    font-family: 'Inter', sans-serif;
+    background-color: #e9ebf2;
+}
+
+/* HEADER */
+.menu-toggle, .menu-icon {
+    display: none;
+}
+
+.main-header {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid grey; 
+    font-family: 'Inter', sans-serif; 
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+}
+
+
+.main-nav {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+} 
+
+.main-nav li {
+    margin: 0 10px;
+    padding: 0 5px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #42444a;
+    font-size: 1.1em;
+    padding: 10px 0;
+    display: block;
+    transition: color 0.3s;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-nav a:hover {
+    color: #000000;
+}
+
+.main-nav li.active a {
+    color:#000000 ;
+    font-weight: 500;
+}
+
+
+.profile-icon {
+    width: 10%;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #42444a;
+}
+
+.profile-placeholder {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    color: #42444a;
+    font-size: 1.1em;
+    padding: 10px 0;
+    display: block;
+    transition: color 0.3s;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+/* HERO SECTION  */
+
+.hero-section {
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3.5em;
+    color: #1a1a1a;
+}
+
+.hero-body {
+    color:#42444a;
+}
+
+
+.hero-content {
+    max-width: 45%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff; 
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    background-color: #2b60ff;
+
+}
+
+.hero-button:hover {
+    background-color: #173796;
+    color: #ffffff;
+}
+
+
+/* CATEGORY BAR */
+
+.category-bar {
+
+    background-color:#ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid grey;
+    border-radius: 4px; 
+    margin-top: 100px;
+}
+
+.category-search-container {
+
+      
+    display: flex;
+    align-items: center;
+    background-color: #e9ebf2;
+    padding: 5px 10px;
+    margin: 0 15px;
+    flex-grow: 1;
+    color: black;
+    max-width: 45%;
+    border: 1px solid grey; 
+    border-radius: 4px; 
+
+}
+
+#search-input {
+
+    width: 45%;
+    border: 0px;
+    background-color: #e9ebf2;
+
+
+}
+
+
+.category-button{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff; 
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    background-color: #2b60ff;
+    width: 300px;
+    text-align: center;
+}
+
+.category-button:hover {
+    background-color: #173796;
+    color: #ffffff;
+}
+
+.category-dropdown {
+
+    background-color: #e9ebf2;
+    color: black;
+    border: 1px solid gray; 
+    font-size: 16px;
+    border-radius: 4px; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px; 
+    width: 300px;
+
+    
+}
+
+
+
+.category-dropdown option {
+
+    background: #fffffff;
+
+    color: black;
+
+}
+
+/* ASIDE */
+
+.aside-content {
+
+    width: 20%;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5px;
+    border: 1px solid grey; 
+    border-radius: 4px;
+    padding: 2px;
+
+}
+
+
+
+.category-list{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.product-section-container{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;

@@ -1,0 +1,6 @@
+[2026-01-20 11:09:42.937] [DISPLAY] LauncherPatcher version: 1.0.0.17
+[2026-01-20 11:09:42.937] [DISPLAY] Launcher version: 1.0.105.2733
+[2026-01-20 11:09:42.937] [DISPLAY] Retrieving Launcher manifest: "https://gamedownloads.rockstargames.com/public/prelauncher2.ini"
+[2026-01-20 11:09:42.950] [DISPLAY] Retrieving minimum supported versions.
+[2026-01-20 11:09:43.604] [DISPLAY] Minimum LauncherPatcher version: 1.0.0.13
+[2026-01-20 11:09:43.653] [DISPLAY] Running Launcher from "C:\Program Files\Rockstar Games\Launcher\Launcher.exe"

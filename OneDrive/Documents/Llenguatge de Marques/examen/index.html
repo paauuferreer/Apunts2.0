@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor d'Inventari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="contenidor">
+        <h1>Gestor d'Inventari</h1>
+        <p class="subtitol">Sistema de gestió de productes i estoc</p>
+
+        <div class="estadistiques">
+            <div class="estat-card">
+                <div class="estat-label">Total Productes</div>
+                <div class="estat-valor" id="total-productes">0</div>
+            </div>
+            <div class="estat-card success">
+                <div class="estat-label">Valor Total Inventari</div>
+                <div class="estat-valor" id="valor-total">0€</div>
+            </div>
+            <div class="estat-card warning">
+                <div class="estat-label">Estoc Baix</div>
+                <div class="estat-valor" id="estoc-baix">0</div>
+            </div>
+            <div class="estat-card danger">
+                <div class="estat-label">Sense Estoc</div>
+                <div class="estat-valor" id="sense-estoc">0</div>
+            </div>
+        </div>
+
+        <div class="seccio">
+            <div class="titol-seccio">Afegir Nou Producte</div>
+            <div class="formulari">
+                <div class="camp">
+                    <label for="nom">Nom del Producte:</label>
+                    <input type="text" id="nom">
+                </div>
+                <div class="camp">
+                    <label for="categoria">Categoria:</label>
+                    <select id="categoria">
+                        <option value="">Selecciona una categoria</option>
+                        <option value="electronics">Electrònica</option>
+                        <option value="clothing">Roba</option>
+                        <option value="food">Alimentació</option>
+                        <option value="books">Llibres</option>
+                        <option value="toys">Joguines</option>
+                        <option value="other">Altres</option>
+                    </select>
+                </div>
+                <div class="camp">
+                    <label for="preu">Preu (€):</label>
+                    <input type="number" id="preu" step="0.01" min="0">
+                </div>
+                <div class="camp">
+                    <label for="quantitat">Quantitat:</label>
+                    <input type="number" id="quantitat" min="0">
+                </div>
+                <div class="camp">
+                    <label for="proveidor">Proveïdor:</label>
+                    <input type="text" id="proveidor">
+                </div>
+                <div class="camp" style="display: flex; align-items: flex-end;">
+                    <button class="boto boto-afegir" onclick="afegirProducte()">Afegir Producte</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccio">
+            <div class="titol-seccio">Inventari de Productes</div>
+
+            <div class="cerca-contenidor">
+                <input type="text" id="cerca" placeholder="Cercar per nom o proveïdor..." oninput="filtrarProductes()">
+            </div>
+
+            <div class="filtres" id="filtres">
+                <button class="boto-filtre actiu" onclick="canviarFiltre('tots')">Tots</button>
+                <button class="boto-filtre" onclick="canviarFiltre('electronics')">Electrònica</button>
+                <button class="boto-filtre" onclick="canviarFiltre('clothing')">Roba</button>
+                <button class="boto-filtre" onclick="canviarFiltre('food')">Alimentació</button>
+                <button class="boto-filtre" onclick="canviarFiltre('books')">Llibres</button>
+                <button class="boto-filtre" onclick="canviarFiltre('toys')">Joguines</button>
+                <button class="boto-filtre" onclick="canviarFiltre('other')">Altres</button>
+            </div>
+
+            <div class="taula-contenidor">
+                <table id="taula-inventari">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nom</th>
+                            <th>Categoria</th>
+                            <th>Preu</th>
+                            <th>Quantitat</th>
+                            <th>Valor Total</th>
+                            <th>Proveïdor</th>
+                            <th>Accions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cos-taula">
+                        <tr>
+                            <td colspan="8" class="missatge-buit">No hi ha productes a l'inventari. Afegeix-ne un!</td>
+                        </tr>
+
+                        <!-- Exemple de fila de producte -->
+                        <tr>
+                            <td>ID_PRODUCTE</td>
+                            <td>NOM_PRODUCTE</td>
+                            <td><span class="badge badge-CATEGORIA">NOM_CATEGORIA</span></td>
+                            <td>PREU€</td>
+                            <td class="stock-baix">QUANTITAT</td>
+                            <td>VALOR_TOTAL€</td>
+                            <td>PROVEIDOR</td>
+                            <td>
+                                <div class="accions">
+                                    <button class="boto boto-accio boto-editar"
+                                        onclick="editarQuantitat(ID_PRODUCTE)">Editar</button>
+                                    <button class="boto boto-accio boto-eliminar"
+                                        onclick="eliminarProducte(ID_PRODUCTE)">Eliminar</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Fi Exemple de fila de producte -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
